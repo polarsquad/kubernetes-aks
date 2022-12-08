@@ -33,6 +33,6 @@ spec:
         pathType: Exact
 ```
 
-Your nginx app would then be reachable through the url `http://<your-namespace>.aks.polarsquad.training`
+Your app would then be reachable through the url `http://<your-namespace>.aks.polarsquad.training`
 
 Now that you have configured an ingress for your application, find the application gateway in the Azure portal and find how creating the ingress resource configured the application gateway.

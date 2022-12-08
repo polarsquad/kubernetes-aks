@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - image: nginxinc/nginx-unprivileged
+    ports:
+    - containerPort: 8080
