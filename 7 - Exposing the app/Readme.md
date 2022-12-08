@@ -6,6 +6,8 @@ When we deployed the very first service in our excercises with the `first_manife
 
 What about the service we created without specifying a type. Can you find any associated Azure resources.
 
+You are also able to see service details in the Azure portal. Go to the AKS cluster and choose services. What kind of information are you able to find here?
+
 ## Ingresses
 
 Next let's create an ingress for your service. Let's keep working on the `first_manifest.yaml` file and edit it to have a ClusterIP Type service and an Application Gateway ingress. Look at the previous exercises to determine how to configure a basic service. The Application Gateway ingress can be created as follows:
